@@ -1,80 +1,16 @@
-# Submission Info
+This project was focused on developing code to simulate critters in a 2D world, where each critter‬
+‭ follows specific behaviors and interacts with other species. Through the implementation of‬
+‭ algorithms for critter movement and interaction, I explored reading and executing behavior‬
+‭ instructions, utilizing API documentation, and testing if the methods are runnable/running as‬
+‭ intended in a controlled simulation. By the end of the lab, I successfully developed a fully‬
+‭ functioning simulation of diverse critter behavior.‬
 
-Names: Jason Xie, Marie Cho
-
-EIDs: jx4334, mhc2323
-
-Emails: jasonkaixie@utexas.edu, cho.marie@utexas.edu
-
-Time Spent:
-
-Sunday
-* Together-90 minutes
-
-Tuesday
-* Together-90 minutes
-* Jason-60 minutes
-
-Wednesday
-* Jason-30 minutes
-
-Thursday
-* Together-1 hour
-* Jason-5 hours
-* Marie-5 hours 30 minutes
-
-Friday
-* Jason-20 minutes
-* Jason-2 hours (making failed Critter)
-* Marie-3 hours 30 minutes
-
-Saturday
-* Marie-2 hours
-* Jason-2 hours (make CritterFest Critter)
-
-Collaborators:
-
-Comments:
-
-
-# Starter Code Info
-
-## Running the code
-
-### VSCode
-If you are using VSCode, this project structures should work out of the box.
-
-### IntelliJ
-If you are using IntelliJ, it should also work out of the box, but you may need to import the module.
-
-### Other IDEs
-If you use a different IDE, you will need to make a Run Configuration with assignment.CritterApplication as the main class
-
-### Command Line
-If all else fails and you are forced to use command line:
-
-1. Make sure `javac` and `java` are the same version. You can check by doing `java -version` and 1javac -version`
-
-2. If they are not the same, then download Java 11 (try to get OpenJDK 11, Temurin 11, or Corretto 11)
-
-3. You may then have to change your PATH environment variable to put the new java and javac before the old ones. You can look up how to do this on your operating system.
-
-4. Once you have the same version of java and javac, you can do the following depending on your operating system:
-
-- Windows: Simply run the .bat files as is
-```
-./run_java.bat  - runs your critter application
-./test_java.bat - runs your junit tests
-```
-
-- MacOS: You may have to first give your files execute permissions. You can do that with
-```
-chmod u+x ./run_java.sh ./test_java.sh
-```
-Then you can do
-```
-./run_java.sh  - runs your critter application
-./test_java.sh - runs your junit tests
-```
-
-Let us know if these scripts don't work for you, and we can help you out.
+My critter (under‬‭ Xie.cri‬‭ ) works similarly to the‬‭ given‬‭ FlyTrap‬‭, but instead of spinning in place,‬
+‭ it is always against a wall and hops only when there's an immediate threat. This predictable‬
+‭ movement in response to threats is more efficient than‬‭ Rover’s‬‭ use of random movement which‬
+‭ is less focused and makes it more vulnerable to being infected. Furthermore, by only infecting‬
+‭ enemies rather than eating them, our critter can neutralize enemies and spread its influence.‬
+‭ Infecting converts enemies into allies, giving it a clear advantage.‬‭ Rover‬‭, by alternating between‬
+‭ infecting and eating, doesn’t offer the same benefits. This strategy allowed my critter to overtake‬
+‭ Rover‬‭ even when the numbers were substantially unbalanced‬‭ (ex: 30‬‭ Xie‬‭ vs 300‬‭ Rover‬‭ ).‬
+‭
