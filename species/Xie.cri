@@ -1,0 +1,46 @@
+Hawk Tuahring
+ifenemy 0 20
+ifenemy 45 26
+ifenemy 90 28
+ifenemy 135 30
+ifenemy 180 32
+ifenemy 225 34
+ifenemy 270 36
+ifenemy 315 38
+ifwall 0 22
+ifwall 180 20
+ifwall 45 22
+ifwall 90 22
+ifwall 135 22
+ifwall 225 24
+ifwall 270 24
+ifwall 315 24
+ifally 0 22
+hop
+go 1
+infect
+go 1
+left
+go 1
+right
+go 1
+ifangle 45 225 18
+go 9
+ifangle 90 270 18
+go 9
+ifangle 135 315 18
+go 9
+ifangle 180 0 18
+go 9
+ifangle 225 45 18
+go 9
+ifangle 270 90 18
+go 9
+ifangle 315 135 18
+go 9
+
+A modified flytrap. 
+Key differences
+-Always has back to a wall
+-Hops if an enemy next to it is looking in its direction
+-Only infects, never eats

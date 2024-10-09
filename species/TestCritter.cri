@@ -1,0 +1,55 @@
+TestCritter
+go 40
+go r1
+go +37
+ifrandom 40
+infect
+ifhungry 40
+infect
+ifhungry r1
+infect
+ifhungry +30
+infect
+ifstarving 40
+infect
+ifempty 45 40
+infect
+ifally 45 40
+infect
+ifenemy 45 40
+infect
+ifwall 45 40
+infect
+ifangle 45 45 40
+infect
+write r5 100
+infect
+add r1 r2
+infect
+sub r1 r2
+infect
+inc r1
+infect
+dec r1
+infect
+iflt r1 r2 40
+infect
+ifeq r1 r2 40
+infect
+ifgt r1 r2 40
+infect
+eat
+infect
+infect
+infect
+ifhungry -4
+infect
+go -6
+infect
+
+go 1
+these should not be included
+go 2
+go 3
+dont include these
+really testable critter. A super testable critter worth 100 million points.

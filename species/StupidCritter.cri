@@ -1,0 +1,53 @@
+StupidCritter 1 2
+ifrandom 1 2
+ifhungry 1 2
+ifstarving 1 2
+ifempty 1 2 3
+ifally 1 2 3
+ifenemy 1 2 3
+ifwall 1 2 3
+ifangle 1 2 3 4
+write 1 2 3
+add 1 2 3
+sub 1 2 3
+inc 1 2
+dec 1 2
+iflt 1 2 3 4
+ifgt 1 2 3 4
+ifeq 1 2 3 4
+ifrandom hi
+ifhungry hi
+ifstarving hi
+ifempty 45 hi
+ifally 45 hi
+ifenemy 45 hi
+ifwall 45 hi
+ifangle 45 1 hi
+write 1 hi
+add 1 hi
+sub 1 hi
+inc hi
+dec hi
+iflt 1 2 hi
+ifgt 1 2 hi
+ifeq 1 2 hi
+go 1000
+write r1 1000
+go r1
+go +1000
+go -37
+hehehe
+write r11 55
+add r11 r10
+add r10 r11
+sub r11 r10
+sub r10 r11
+inc r11
+dec r11
+iflt r11 r10 10
+iflt r10 r11 10
+ifeq r11 r10 10
+ifeq r10 r11 10
+ifgt r11 r10 10
+ifgt r10 r11 10
+go r11
